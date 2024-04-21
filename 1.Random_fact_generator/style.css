@@ -1,0 +1,27 @@
+.content{
+    display:flex;
+    flex-direction:column;
+      align-items:center;
+      justify-content:center;
+      padding-bottom:60px;
+      border:2px solid grey;
+      
+    }
+    body{
+    background-image: radial-gradient(circle at center center, rgba(56, 69, 253,0.15) 0%, rgba(56, 69, 253,0.15) 84%,transparent 84%, transparent 100%),linear-gradient(90deg, hsl(195,97%,72%),hsl(195,97%,72%)); background-size: 26px 26px;}
+    .p{
+    width:500px;
+    height:100px;
+      margin:0 auto;
+        border:2px solid transparent;
+      translate:ease in out;
+       transition:4s;
+      padding:20px;
+      font-size:25px;
+    }
+    .p:hover{
+      border:3px solid grey;
+      transition:1s;
+      
+        translate:ease in out;
+    }
